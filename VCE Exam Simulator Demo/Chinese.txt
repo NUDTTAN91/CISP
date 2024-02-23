@@ -1,0 +1,1630 @@
+LANGUAGE_TITLE=中文
+LANGUAGE_INFO=Source Inc.
+LANGUAGE_VERSION=1.02
+
+# Language strings
+
+LanguageLabel=语言
+DEFAULT_LANGUAGE=自动
+LANGUAGE_TITLE_NOT_FOUND=语言标题未找到
+LANGUAGE_TITLE_EXIST=该语言当前已存在
+APPLY_LANGUAGE_DIALOG_TITLE=更改语言...
+APPLY_LANGUAGE_MESSAGE=您需要重新启动应用程序才能应用语言设置。 你想现在重新启动吗?
+
+# Buttons
+
+YesButton=确定
+OkButton=确定
+AddButton=添加
+HelpButton=帮助
+RetryButton=重试
+CancelButton=取消
+PrintButton=打印
+ExportButton=导出
+CloseButton=关闭
+BrowseButton=浏览...
+UnregisterButton=反注册
+SelectAllButton=选择全部
+DeselectAllButton=反选
+
+# Server 
+
+NEW_GROUP_NAME=<组名>
+NEW_STUDENT_NAME=<学生名字>
+NEW_TEACHER_NAME=<教师名字>
+STUDENT_WAS_DELETED=<学生已被删除>
+
+CLIENT_ADD_STUDENT_CAPTION=新学生
+MUST_SELECT_GROUP=您必须选择一个组.
+MUST_ENTER_THE_NEW_STUDENT_NAME=您需要键入一个名字.
+MUST_ENTER_THE_GROUP_NAME=您需要键入一个组名.
+
+NAME_USED_BY_ANOTHER_STUDENT=该姓名的学生已存在。
+PASSWORD_AND_CONFIRMATION_ARE_DIFFERENT=密码不匹配.
+NAME_USED_BY_ANOTHER_GROUP=同名组已存在.
+STUDENT_WAS_ADDED=新学生添加成功.
+TESTLET_TIME_EXPIRED_MESSAGE=您的时间已到。 按“确定”结束测试。
+QUESTION_SET_TIME_EXPIRED_MESSAGE=您的时间已到。 按“确定”结束问题集。
+
+#------------------------------
+
+TRUE_CAPTION=真
+FALSE_CAPTION=假
+
+GROUP=组
+RESULT_REPORT=结果报告
+
+EXAM_CAPTION=考试
+DATE_CAPTION=日期
+GROUP_CAPTION=组
+CANDIDATE_CAPTION=答题人
+
+ALL_FILTER=<全部>
+WITHOUT_GROUP_FILTER=<空组>
+TODAY_FILTER=今天
+THIS_WEEK_FILTER=这周
+THIS_MONTH_FILTER=这个月
+
+CAPTION_ADD=新增
+CAPTION_ADD_CHILD=新增子项
+CAPTION_CHANGE=更改
+CAPTION_REMOVE=移除
+
+STANDARD_EXAM=基础题
+CASE_STUDY_BASED_EXAM=基于案例研究的试题
+
+rbTakeQuestionRange=题目范围
+rbTo=到
+
+# question types
+MULTIPLE_CHOICE=多项选择
+FILL_IN_THE_BLANK=填空题
+SELECT_AND_PLACE=选择并放置
+POINT_AND_SHOT=Point and Shoot
+HOT_AREA=热点区域
+CREATE_A_TREE=创建树形图
+BUILD_LIST_AND_REORDER=列表排序
+DROP_AND_CONNECT=拖放与连接
+
+# error messages
+INVALID_FILE_FORMAT=文件格式无效或文件已损坏。
+UNSUPPORTED_IMAGE_FILE_FORMAT=图像文件格式无效或不支持该格式。
+UNKNOWN_EXAM_TYPE=试题类型未知.
+UNKNOWN_QUESTION_TYPE=题目类型未知.
+WRONG_QUESTION_TYPE=问题类型错误.
+CANNOT_RUN_CALC_ERROR=未找到 "calc.exe". 请使用“控制面板”中的“添加/删除程序”尝试重新安装计算器。
+WRONG_FILE_TYPE=当前文件类型不支持.
+FILE_FORMAT_NEXT_VERSION=此文件是使用较新版本的VCE考试模拟器创建的。 请从网站www.avanset.com下载最新版本。
+
+# messages
+MULTIPLE_CHOICE_MAXIMUM_CHECKED=该题目最多允许 %d 个选项。 在您选择另一个选项前请取消部分选项。
+
+CANT_OPEN_INTERNET_BROWSER=无法启动Internet浏览器。
+MAIL_CLIENT_ERROR=无法启动您的电子邮件客户端应用程序。
+
+EXAM=Exam
+CASE_STUDY_TITLE=案例研究标题
+QUESTION=问题
+CALCULATOR_BUTTON_CAPTION=计算器
+EXHIBIT_BUTTON_CAPTION=显示
+SHOW_ANSWER_BUTTON_CAPTION=显示答案
+HIDE_ANSWER_BUTTON_CAPTION=隐藏答案
+CASE_STUDY_BUTTON_CAPTION=案例分析
+ANSWER_BEGIN=题目:
+SCORE_CAPTION=分数
+STUDENT_CAPTION=学生
+
+YOUR_RESPONSE_CAPTION=你的回答
+
+# ExhibitForm
+ExhibitForm=显示
+
+# MultipleExhibitForm
+MultipleExhibitForm=显示
+
+# other
+UNABLE_TO_VIEW_ANSWERS=无法查看答案。
+ANSWER_CHOICES_TITLE_PROPERTY=选择题目
+TREE_STRUCTURE_TITLE_PROPERTY=Tree Structure Title
+ORDERED_LIST_TITLE_PROPERTY=Ordered List Title
+
+ITEM_NUMBER_TEMPLATE=Item %d of %d
+CURRENT_SCORE_TEMPLATE=当前分数: %s/%s
+REAL_EQ_NUMBER=  (Exam %s, Q%d)
+REAL_EQ_TITLE=  (%s, Q%d)
+
+# drop and connect question strings
+CONNECTORS=连接
+mnuRelationshipReverse=&Reverse Direction
+mnuRelationshipDelete=删除连接
+mnuDragAreaBoxes=对象...
+mnuDragAreaConnectors=连接...
+mnuDragAreaReset=重置
+mnuDragAreaProperties=属性
+
+
+ALL_FILES_DIALOG_FILTER_TITLE=全部文件
+VCE_FILES_DIALOG_FILTER_TITLE=VCE Exam Simulator Files
+TEXT_FILES_DIALOG_FILTER_TITLE=文本文件
+RTF_FILES_DIALOG_FILTER_TITLE=Rich Text Format Files
+
+NULL_SECTION_NAME=(无)
+WITHOUT_SECTION=(无章节)
+
+COPYRIGHT_NOTICE=Copyright ?%s Global Simulators Ltd
+VERSION_LABEL=版本 %s
+
+RESET_QUESTION_PROMPT=您确定要删除对此问题所做的所有更改吗？
+
+DROP_AND_CONNECT_CONNECTORS_MESSAGE=请选择两个要连接的对象。
+DROP_OBJECT=对象
+DROP_CONNECTOR=连接
+
+# CaseStudyForm 
+CaseStudyForm=案例分析
+#close button already defined 
+
+Demo=演示版本
+COPYRIGHT_STRING=Copyright ?2014 Global Simulators Ltd
+ABOUT_LICENCE_TO_STRING=%s (允许最多客户端数 %d )
+UNREGISTER_CONFIRM_MESSAGE=您确定要从此计算机中删除注册信息吗？
+UNREGISTER_SUCCESS=注册信息已成功删除。重新启动应用程序后，更改将生效。你想现在重新启动吗？
+
+COPYRIGHT_WARNING=警告：此计算机程序受版权法和国际条约的保护。 未经授权复制或分发本程序或其任何部分可能会导致严重的民事和刑事处罚，并将在法律允许的最大范围内受到起诉。
+
+# AboutForm strings
+CopyrightStaticText=Copyright ?%s %s
+AboutForm=关于
+LicensedToStaticText=该产品已授权给:
+WebStaticText=网站:
+EmailStaticText=电子邮箱:
+
+MUST_TYPE_TITLE=您必须输入标题。
+MUST_TYPE_FILENAME=您必须输入文件名。
+
+KYLOBYTE_SHORT_STRING=KB
+PASSWORD_CAPTION=密码: 
+INCORRECT_PASSWORD_MESSAGE=当前密码不正确，请重新输入，请注意密码区分大小写。
+
+# EnterPasswordForm
+EnterPasswordForm=保护
+DialogCommentStaticText=此操作受管理员保护。您必须输入密码才能继续。
+PasswordStaticText=密码:
+
+COLLAPSE_BUTTON_STATE=Collapse
+EXPAND_BUTTON_STATE=Expand
+MOVE_BUTTON=<< 移动
+REMOVE_BUTTON=移除 >>
+NEXT_BUTTON=继续
+FINISH_CAPTION=完成
+
+FILL_IN_THE_BLANK_ANSWER_SEP= -or- 
+
+SECTION=章节
+
+NONE_RESPONSE=[空]
+
+INTEGER_PROPERTY_WARNING=请输入从 %d 到 %d 的整数值。
+
+FILE_NOT_FOUND_MESSAGE=找不到文件"%s"。请确保路径和文件名正确无误.
+
+QUESTION_UPPER=问题
+EXPLANATION_REFERENCE_TITLE=说明/参考
+
+CASE_STUDY_FOR_PRINT=(案例分析):
+EXHIBIT_AFTER_FOR_PRINT=(显示):
+EXHIBIT_BEGIN_FOR_PRINT=显示:
+CORRECT_ANSWER_FOR_PRINT=正确答案:
+
+CANDIDATE_RESPONSE_FOR_PRINT=Candidate Response
+
+FILL_IN_THE_BLANK_ANSWER_UNION_OR=-or-
+
+
+TIME_LIMIT_LABEL=限制时间(分钟): %d
+
+PLEASE_SELECT_SECTION=Please select at least one section.
+PLEASE_SELECT_GROUP=Please select at least one group.
+
+#---------------------------------------------------------
+# ExamForm
+
+# Buttons
+acSaveSession=保存会话
+acPreviousItem=上一题
+acNextItem=下一题
+acReview=查看
+acPrintItem=打印项目
+acReviewMarked=查看标记题
+acReviewIncomplete=查看未作答
+acReviewAll=查看全部
+acPrintReport=打印报告
+acViewAnswers=回答
+acScoreReport=成绩报告
+acPause=暂停
+acEnd=结束
+acCaseStudy=案例分析
+acQuestion=问题
+acExhibits=E&xhibits
+acReset=重置
+acInstructions=说明
+
+# Labels/StaticTexts
+MARK_CAPTION=标记
+IncompleteTextLabel== 未作答试题
+MarkedTextLabel== 标记项目
+
+ExamForm=Exam Form
+
+STUDENT_FIELD=学生
+GROUP_FIELD=组
+
+COUNT_SELECT_COMMENT=已选择 %d 选项
+
+STUDENT_RESPONSE=学生回复:
+
+END_SET_INCOMPLETE_MESSAGE=您对某些题目的回答不完整，不完整的题目将被标记为错误。\
+\
+您确定要结束当前问题集吗？
+
+END_SET_MESSAGE=您确定要结束问题集吗？
+
+ITEMS=试题数
+PERCENT_CORRECT=正确比例
+
+ELAPSED_TIME_CAPTION=耗时:
+
+YOUR_RESPONSE_BEGIN=你的回答:
+
+CORRECT_MARK=正确
+INCORRECT_MARK=错误
+TAKE_INCORRECT_ONLY_BUTTON=回答错误的问题（%d）
+TAKE_INCORRECT_ONLY_CAPTION=回答错误的问题
+
+RETAKE_INCORRECT_ONLY_BUTTON=错误 (%d)
+RETAKE_MARKED_ONLY_BUTTON=标记(%d)
+RETAKE_INCOMPLETE_ONLY_BUTTON=未作答(%d)
+
+RETAKE_INCORRECT_ONLY_Q_BUTTON=重做错误的题目 (%d)
+RETAKE_MARKED_ONLY_Q_BUTTON=重做标记的题目 (%d)
+RETAKE_INCOMPLETE_ONLY_Q_BUTTON=重做未完成题目 (%d)
+
+RETAKE_INCORRECT_ONLY_CAPTION=重做错误的题目
+
+TIME_REMAINING_CAPTION=剩余时间:
+EXAM_TIME_EXPIRED_MESSAGE=你的时间已到。 按“确定”结束考试。
+
+END_TESTLET_MESSAGE=您确定要结束当前题组吗？
+
+END_SET_MESSAGE=您确定要结束当前问题集吗？
+
+END_TESTLET_INCOMPLETE_MESSAGE=您对某些试题的作答未做完。未作答的将被标记为不正确。\
+\
+您确定要结束当前题组吗？
+
+END_BUTTON_CAPTION=结束
+DEFAULT_TESTLET_TITLE=案例分析
+
+VIEW_ANSWERS_COMMENT=要查看正确答案，请单击“查看”按钮。
+
+SINGLE_SELECT_COMMENT=选择最佳选项
+MULTIPLE_SELECT_COMMENT=选择所有适用的选项
+SELECT_AND_PLACE_COMMENT=要回答，请单击“选择并放置”按钮。
+POINT_AND_SHOT_COMMENT=要回答，请单击“指向和拍摄”按钮。
+FILL_IN_THE_BLANK_COMMENT=在文本框中输入您的答案。
+
+EXIT_BUTTON_CAPTION=退出
+
+GRADE_PASS=通过
+GRADE_FAIL=失败
+
+CANDIDATE_FIELD=答题人
+DATE_FIELD=日期
+TIME_FIELD=时间
+EXAM_NUMBER_FIELD=试题编码
+ELAPSED_TIME_FIELD=用时
+
+EXAMINATION_SCORE_REPORT=考试成绩报告
+SCORE_HISTORY_EXPORT_FILENAME=历史成绩
+
+REQUIRED_SCORE=所需分数
+YOUR_SCORE=得分
+YOUR_SCORE_2=得分
+PASSING_SCORE=通过分数
+GRADE=成绩
+
+END_EXAM_MESSAGE=您确定要结束考试吗？
+
+REVIEW_OVERVIEW_ITEM=题组说明
+REVIEW_CASE_STUDY_ITEM=案例分析
+
+SELECTED_PARAM_NOT_INCLUDE_QUESTIONS=没有问题符合指定的标准。
+
+BEGIN_EXAM_BUTTON_CAPTION=开始
+START_EXAM_MESSAGE=单击“开始”按钮开始考试。
+EXAM_EXIT_PROMPT=你确定要退出吗？
+EXAM_END_BUTTON_CAPTION=结束考试
+PREVIOUS_BUTTON_CAPTION=&Previous
+
+LOAD_EXAM_FROM_CMD_LINE_ERROR=无法加载考试。请检查命令行参数。
+ADD_EXAM_ERROR=当前该文件由另一个程序（可能是VCE Designer）在使用。在将文件添加到考试列表之前请先关闭该文件
+UPDATE_EXAM_ERROR=当前该文件由另一个程序（可能是VCE Designer）在使用。请关闭文件操作然后将其更新到考试列表。
+END_EXAM_INCOMPLETE_MESSAGE=您对部分题目尚未作答，未作答的题目将被标记为错误题目。\
+\
+你确定要结束这次考试吗？
+
+# instructions
+MULTIPLE_CHOICE_INSTRUCTION_HTML=<b>多项选择</b>\
+\
+此问题要求您从提供的选项中选择一个或多个答案。\
+\
+您可以使用三种方法选择答案选项：\
+<li>单击选项按钮或答案选项旁边的复选框。\
+<li>单击答案选项的文本。\
+<li>键入与答案选项对应的字母。\
+\
+您可以使用三种方法清除选项按钮：\
+<li>点击另一个选项按钮。\
+<li>点击另一个答案选项的文字。\
+<li>键入与其他答案选项对应的字母。\
+\
+您可以使用三种方法清除复选框：\
+<li>单击所选答案选项旁边的复选框。\
+<li>单击所选答案选项的文本。\
+<li>键入与所选答案选项对应的字母。\
+\
+要清除所有答案，请单击<b>重置</b>按钮。\
+\
+<b>注意：</b>您可能需要使用滚动条查看问题的整个文本。
+
+DROP_AND_CONNECT_INSTRUCTION_HTML=<b>拖放与连接</b>\
+\
+This question presents you with objects and connectors. The question asks you to create relationships between the objects by using the connectors. You create these relationships by selecting two objects and then selecting a connector.\
+\
+To create a relationship, take the following actions:\
+<ol>\
+<li>Drag two objects to an available area on the screen.\
+<li>Select the objects.\
+<ul>\
+<li>To select the first object, click it. The color of the object will change.\
+<li>To select a second object, press SHIFT and click the second object. You can select only two objects at a time.\
+<li>To cancel the selection of an object, click any other object. The object that was originally selected will change back to its original color, and the other object will become selected.\
+</ul>\
+<li>Select the connector that you want to place between the two objects. You should now see the complete relationship on the screen.\
+</ol>\
+\
+The connector will point from the first object you select to the second object you select. To change the direction of the connector, right-click the text of the connector, and click <b>Reverse Connection</b>.\
+\
+You can use two methods to remove a connector:\
+<li>Right-click the text of the connector that you want to remove, and click <b>Delete</b>.\
+<li>Select the text of the connector that you want to remove, and press the DELETE key.\
+\
+To remove from the screen all of the relationships that you have created, click the <b>Reset</b> button.\
+\
+补充说明：\
+<li>您可能需要使用滚动条查看完整问题。\
+<li>You may not need to use all of the provided answer choices.\
+<li>Connectors can be used more than once.\
+<li>Moving connected objects will not change the relationship between the objects.\
+<li>Only objects with connectors to other objects will be scored.\
+<li>The shading in the connector list is used to distinguish between items in the list.
+
+CREATE_TREE_INSTRUCTION_HTML=<b>创建树形图</b>\
+\
+This question asks you to create a tree structure.\
+\
+The tree structure includes three levels of nodes, each marked with distinct colors and shapes:\
+<li>Red triangles indicate nodes to which you cannot add items.\
+<li>Blue squares indicate nodes to which you can add items.\
+<li>Green circles appear next to items that you have added to nodes.\
+\
+You can use two methods to add an item to the tree structure:\
+<li>Drag the item from the list of answer choices in the right pane of the screen to the appropriate node of the tree in the left pane of the screen.\
+<li>Select the appropriate node of the tree in the left pane of the screen.\
+<li>Select the appropriate item from the list of choices in the right pane of the screen.\
+<li>Click the <b>Move</b> button.\
+\
+You can use two methods to remove an item from the tree structure:\
+<li>Drag an item from the tree to the list of answer choices.\
+<li>Select the item and click the <b>Remove</b> button.\
+\
+To remove from the tree structure all of the items that you have added, click the <b>Reset</b> button.\
+\
+补充说明：\
+<li>You might need to use a scroll bar to view the entire text in either of the two panes.\
+<li>You may not need to use all of the provided answer choices.\
+<li>An answer choice can be added only to the nodes that are marked with blue squares.\
+<li>An answer choice can be used more than once.\
+<li>A node can have more than one choice added to it.\
+<li>You might or might not need to place an answer choice at each node.\
+<li>You cannot add or remove nodes that are marked with blue squares or red triangles.\
+<li>The shading in the tree and in the list of choices is used to distinguish between items.\
+<li>You can collapse or expand the tree by clicking the minus sign (-) or the plus sign (+). Clicking the <b>Collapse</b> button collapses the tree completely; clicking the <b>Expand</b> button expands the tree completely.
+
+BUILD_LIST_AND_REORDER_INSTRUCTION_HTML=<b>列表排序</b>\
+\
+This question asks you to perform two tasks:\
+<li>Build an answer list from items in the list of answer choices.\
+<li>Arrange the items in a particular order.\
+\
+You can use three methods to add an item to the answer list:\
+<li>Drag the item from the list of choices in the right pane of the screen to the answer list in the left pane of the screen.\
+<li>Double-click the item.\
+<li>Select the item, and then click the <b>Move</b> button.\
+\
+You can use four methods to remove an item from the answer list:\
+<li>Drag the item from the answer list to the list of choices.\
+<li>Double-click the item.\
+<li>Select the item, and then click the <b>Remove</b> button.\
+<li>Select the item, and then press the DELETE key.\
+\
+To remove all items from the answer list, click the <b>Reset</b> button.\
+\
+You can use two methods to reorder items in the answer list:\
+<li>Drag each item to the appropriate location in the answer list.\
+<li>Select an item, and then click the up arrow button or down arrow button to move the item.\
+\
+补充说明：\
+<li>您可能需要使用滚动条查看完整问题。\
+<li>You may not need to use all of the provided answer choices.\
+<li>The shading in the answer list and in the list of choices is used to distinguish between items.\
+<li>For some Build List and Reorder questions, you might only need to reorder a given list of answer choices. For others, you might only need to create an unordered list.
+
+HOT_AREA_INSTRUCTIONS_HTML=<b>热点区域</b>\
+\
+This question asks you to indicate the correct answer by selecting one or more elements within a graphic.\
+\
+Selectable elements are marked with a border and are shaded when the mouse moves over them.\
+\
+Click an element to select it. The area around the element will turn gray to indicate that it has been selected. Click the area again to deselect the element.\
+\
+To remove all selections, click the <b>Reset</b> button.\
+\
+补充说明：\
+<li>您可能需要使用滚动条查看完整问题。\
+<li>您可能需要使用滚动条查看整个图形。\
+<li>您可以使用分割条调整窗格的大小。
+
+SELECT_AND_PLACE_INSTRUCTION_HTML=<b>选择并放置</b>\
+\
+此问题为您提供了对象和适当的位置。 该问题要求您根据指定的标准将对象拖动到图形中的适当位置。\
+\
+要回答，请按以下方式操作：\
+<li>点击<b>选择并放置</b>按钮。\
+<li>将对象拖动到适当的位置。\
+\
+要删除您对此问题所做的所有更改，请单击<b>重置</b>按钮。\
+\
+补充说明：\
+<li>您可能需要使用滚动条查看完整问题。\
+<li>您可能需要使用滚动条查看整个图形。
+
+POINT_AND_SHOOT_INSTRUCTION_HTML=<b>Point and Shoot</b>\
+\
+This question asks you to indicate the correct answer by placing the target icon in the corresponding position within a graphic.\
+\
+To answer, take the following actions:\
+<li>Click the <b>Point and Shoot</b> button.\
+<li>Click the graphic to move the target icon in the specified position.\
+\
+To place the target icon in the default position, click the <b>Reset</b> button.\
+\
+补充说明：\
+<li>您可能需要使用滚动条查看完整问题。\
+<li>You might need to use the scroll bar to view the entire graphic.
+
+FILL_IN_THE_BLANK_INSTRUCTION_HTML=<b>Fill in the Blank</b>\
+\
+This question asks you to type your answer in a text box. Occasionally more than one answer may be correct. Type only one answer in the text box.\
+\
+To clear the text box, click the <b>Reset</b> button.\
+\
+补充说明：\
+<li>您可能需要使用滚动条查看完整问题。
+
+# Activation
+START_ACTIVATION_MESSAGE=感谢您安装 %s.\
+\
+您必须激活此软件才能完全使用其所有的功能。向导将指导您完成激活过程。
+
+MANUAL_ACTIVATION=激活手册
+
+ADD_ACT_FILE_BUTTON=选择
+
+ENTER_REGISTRATION_CODE_MESSAGE=在下面的字段中粘贴注册码，然后单击继续。
+NOTE_REGISTRATION_CODE=注意：请复制/粘贴注册码，不要手动输入。
+LOST_REGISTRATION_CODE_MESSAGE=丢失许可证密钥?
+RETRIEVE_REGISTRATION_CODE_MESSAGE=您可以使用此页面检索它:
+ACTIVATION_MODE_MESSAGE=请选择激活方式
+AUTOMATIC_MODE_MESSAGE=自动（推荐）
+MANUAL_MODE_MESSAGE=手册
+AUTOMATIC_MODE_COMMENT_MESSAGE=此模式需要此计算机上的Internet连接。
+MANUAL_MODE_COMMENT_MESSAGE=仅当自动模式不起作用或未连接到Internet时，才能使用此模式。
+ACTIVATING_PROCESS_MESSAGE=正在激活中，请稍等片刻...
+
+ACTIVATE_PRODUCT_LINK=要激活您的产品，请使用此链接:
+MANUALLY_ACTIVATE_COMMENT=要手动激活%s，您需要完成以下步骤:
+MANUALLY_ACTIVATE_STEP_1=1. 访问以下URL:
+MANUALLY_ACTIVATE_STEP_2=2. 复制下面的System ID和许可密钥，并将其粘贴到步骤1的手动激活页面上的相应字段中。 点击 "激活".
+MANUALLY_ACTIVATE_STEP_3=3. 复制激活码并将其粘贴到下面。
+MANUALLY_ACTIVATE_STEP_4=4. 点击"继续"完成激活.
+SYSTEM_ID_CAPTION=System ID:
+LICENSE_TO_CAPTION=授权给:
+LICENSE_KEY_CAPTION=许可密钥:
+ACTIVATION_CODE_CAPTION=激活码:
+COPY_BUTTON_CAPTION=复制
+
+ACTIVATION_CAPTION=激活
+
+INCORRECT_ACTIVATION_CODE=无效激活码.
+
+REGISTRATION_SUCCESSFULLY_COMPLETED=许可证已成功激活。
+REGISTRATION_SUCCESSFULLY_COMMENT=要完成注册，请点击"完成",然后重新启动应用程序。
+
+PROXY_SETTINGS_BUTTON=代理设置
+PASTE_BUTTON_CAPTION=粘贴
+
+APPLICATION_SUCCESSFULLY_ACTIVATED=应用程序已成功激活。
+
+ACTIVATION_STEP2_CAPTION=您必须注册 %s 才能使用......如果您有互联网，则注册将会非常简单快速。\ 
+\
+你需要:
+
+AUTOMATIC_ACTIVATION_CAPTION=在线激活
+MANUAL_ACTIVATION_CAPTION=从另一台PC激活
+
+PLEASE_WAIT_CAPTION=请稍后...
+MAKING_DBBACKUP_CAPTION=进行数据库备份...请稍候...
+
+ACTIVATION_SUCCESSFUL_MESSAGE=激活成功，点击"结束"并重新启动应用程序.
+
+ACTIVATION_FAILED_MESSAGE=激活失败. 
+
+HelpStaticText=单击"帮助"获取更多信息.
+
+# Registration
+HowToBuyButton=帮助
+OrderOnlineButton=购买
+RegisterButton=注册
+ContinueButton=继续
+mnuLicenceManager=许可管理
+
+BUY_NOW=购买
+BACK_BUTTON=后退
+
+UNABLE_TO_REGISTER=未能完成注册，未找到VCE许可管理器.
+THANK_MESSAGE=感谢您使用 %s。 现在您需要重新启动应用程序以进行激活注册。
+REGISTRATION_DIALOG_TITLE=注册向导
+REGISTRATION_INTERNAL_ERROR=内部错误。请与我们联系 contact@avanset.com.
+REGISTRATION_COULD_NOT_CONNECT=连接错误，请稍后再试或使用手动激活模式.
+CONNECTION_RESET_BY_PEER=连接被重置.
+INVALID_REGISTRATION_CODE=当前输入的注册码无效，请输入有效的注册码.
+REGISTRATION_CODE_FOR_MANAGER=您已输入VCE Player的注册码。 需要打开该程序吗？
+ALREADY_REGISTERED=注册成功，请重新启动程序以便我们进行激活
+BROWSER_ERROR_MESSAGE=无法启动Internet浏览器。
+THANK_TITLE=注册
+ACTIVATE_MESSAGE=现在您需要重新启动应用程序才能激活注册。
+
+STATUS_SENDING_DATA=发送数据...
+STATUS_FINDING_HOST=寻找主机...
+STATUS_CONNECTING=连接中...
+STATUS_CONNECTED=连接成功，发送请求...
+
+VCE_REGISTRATION_WAS_COMPLETE_SUCCESSFULL=要完成注册过程，您需要重新启动应用程序。 你想现在重新启动吗？
+
+#CreateATreeAnswerFrame
+CollapseExpandButton=折叠
+CreateATreeMoveButton=<< 移动
+CreateATreeRemoveButton=移除 >>
+
+# Drop And Connect
+DIRECTED=定向
+UNDIRECTED=无定向
+ONE_TO_ONE=一对一
+ONE_TO_MANY=一对多
+MANY_TO_ONE=多对一
+MANY_TO_MANY=多对多
+
+# Updater
+UpdateCheckingLabel=自动检查更新: 
+cbUpdateChecking=每次启动时|每天|每周|每月|从不
+UPDATER_CAPTION=软件更新
+PreparingForUpdateLabel=准备更新...
+DownloadProcessLabel=下载文件...
+DownloadProgressLabel=%d Kb ... %d Kb (%d KB/s)
+mnuCheckForUpdate=检查更新...
+UpdateNowButton=立即更新
+UNABLE_TO_START_UPDATE=无法开始更新。 在服务器上找不到文件。
+CHECK_FOR_UPDATE=正在检查更新....
+NO_UPDATE_AVAIBLE=您当前的版本 %s 为最新版.
+DOWNLOADING_ERROR=下载"%s"文件时出错...尝试再次下载?
+YOUR_VERSION=当前版本:
+LATEST_VERSION=最新版本:
+CLOSE_FILE=请关闭以下程序 "
+CANCELING_CAPTION=取消...
+CANCELING_DOWNLOAD=取消下载...
+NEW_VERSION_AVAIBLE=发现新版本 %s .
+CHECKING_FOR_UPDATE=检查更新...
+UPDATE_AVAIBLE=当前更新可用...立即更新?
+FILE_ACCESS_ERROR=或许当前文件处于打开着的状态或为只读状态...
+DOWNLOAD_UPDATE_PROGRAM=下载更新程序...
+PROGRAM_NOT_FOUND=程序 %s 未找到.
+DOWNLOAD_NOW=你想现在更新吗?
+UPDATE_SUCCESSFULLY_MESSAGE=当前版本已成功更新到 %s.
+NEED_UPDATE_APP=发现新版本的VCE考试模拟器。您必须更新程序后软件才能正常工作！
+
+PRINTER_NOT_FOUND=默认打印机不存在.
+
+EXAM_FILE_NOT_FOUND=试题文件不存在.
+
+# Proxy Form
+ProxyForm=代理设置
+ProxyCommentText=请确保您的Internet连接可用。 如果需要，请调整您的代理设置，然后单击继续。
+chkProxyAuth=使用身份验证
+chkProxy=启用代理服务
+stProxyAddres=地址:
+stProxyPort=端口:
+stProxyUsername=用户名:
+stProxyPassword=密码:
+
+MORE_DATA_OPEN=当前打开的文件所包含的内容超出演示版中可查看和编辑的项目数量。 在演示版中，只支持以下内容:\
+\
+  ?  一份试卷中的三个题库\
+  ?  一份试卷中的五道题目 (基础题库);\
+  ?  一份试卷中一个问题集的前3小题 (基于案例分析的试题);\
+  ?  一个问题集中的前五个问题 (基于案例分析的试题).\
+\
+您仍可以编辑该文件，但无法保存所作的更改，这些限制将在注册后移除。
+
+#UninstallFeedbackForm
+SendButton=发送
+FeedbackCommentLabel=如果可以，请告诉我们卸载的原因。它可以帮助我们解决它的缺点并改进它。
+FeedbackCommentLabel1=如果您不想写任何内容，只需关闭此窗口即可。
+
+#AutomaticRegistrationForm
+AutomaticRegistrationForm=自动注册
+StatusLabel=自动注册...
+UNABLE_TO_AUTOMATIC_REGISTER=无法注册，请检查您的互联网连接.
+
+
+#Custom Language
+CustomLanguageForm=其他语言
+acAddLanguage=增加...
+acChangeLanguage=更改...
+acExportLanguage=导出...
+LanguageListView=语言名字|翻译者|版本
+
+DELETE_LANGUAGE_PROMPT=您确定要删除此语言吗？?
+DELETE_STANDART_LANGUAGE_MESSAGE=您无法删除此语言。 它是程序正式支持的语言。
+CHANGE_STANDART_LANGUAGE_MESSAGE=你无法更改此语言。 它是程序正式支持的语言.
+
+CUSTOM_LANGUAGE_CAPTION=其他语言...
+
+LOCK_LICENSE_MESSAGE=您的许可证已被锁定. 请联系支持 support@avanset.com.
+LOCK_LICENSE_KEYS_MESSAGE=您的部分注册密钥已锁定. 请联系支持 support@avanset.com.
+
+
+
+LOGOUT_APPLY_MESSAGE=你确定要退出吗？ 应用程序将重新启动。
+
+mnuLicenseInformation=许可证信息...
+
+#---------------------------------------------------------
+# LicenseInformationForm
+#---------------------------------------------------------
+
+LicenseInformationForm=许可证信息
+MyAccountGroupBox=我的账户
+LicensedToLabel=授权给:
+LicenseExpDateLabel=到期时间:
+
+LogOutButton=注销
+RenewLicenseButton=续订...
+
+#---------------------------------------------------------
+# ActivateSoftwareForm
+#---------------------------------------------------------
+ActivateSoftwareForm=激活软件
+
+LogInDescLabel=通过登录您的账户以授权该软件在此计算机上使用。
+
+EMailLabel=邮箱:
+PasswordLabel=密码:
+LogInButton=登陆
+ProxySettingsButton=代理设置
+
+LogInGroupBox=登录您的avanset.com帐户
+ForgetPassGroupBox=忘记密码?
+DontHaveLicenseGroupBox=没有许可证?
+
+PurchaseLicenseButton=购买许可证
+RetrievePasswordButton=找回密码
+
+INCORRECT_MAIL_OR_PASSWORD=错误的邮箱帐号或密码。
+NO_VALID_PRODUCT_ASSIGNED=您的帐户只有VCE Player许可。 您需要更新许可证才能使用VCE Designer。
+PRODUCT_EXPIRED=产品已过期。
+ACTIVATION_NOT_ALLOW=激活失败：已达到激活次数限制。
+MAIL_OR_PASSWORD_NOT_PROVIDED=非有效的电子邮件或密码
+
+GET_MODE_ERROR_CAPTION=get_mode 错误!
+SET_ACTIVATION_ERROR_CAPTION=set_activation 错误!
+ACTIVATION_ERROR_CAPTION=激活出错!
+DEACTIVATION_ERROR_CAPTION=反激活出错!
+LOGIN_ERROR_MESSAGE=错误代码 %s. 请联系技术支持 support@avanset.com.
+ONLY_PLAYER_LICENSE_MESSAGE=您的帐户只有VCE Player许可。 您需要更新许可证才能使用VCE Designer。
+LICENSE_EXPIRED_MESSAGE=您的许可证已过期。
+LICENSE_WILL_BE_EXPIRES_MESSAGE=您的许可证将在%s天后到期。
+UNABLE_TO_LOGIN=当前服务器不可用，请检查您的互联网连接，稍后再试。
+# main form controls
+MenuBar=菜单栏
+StandardToolbar=基础功能
+NavigationToolbar=导航
+FormattingToolbar=格式
+PreviewToolbar=打印预览
+tbPrintPreviewPrint=打印
+tbPrintPreviewZoomLabel=  放大: 
+
+EXAMS_CAPTION=题库
+SECTIONS_CAPTION=章节
+TESTLETS_CAPTION=题组
+QUESTION_SETS_CAPTION=问题集
+QUESTIONS_CAPTION=题目
+
+mnuFile=文件
+mnuEdit=编辑
+mnuView=查看
+mnuExam=试题
+mnuHelp=帮助
+mnuFileNew=新建
+mnuChangeLanguage=语言
+acActivation=注册...
+acFileNew=创建基础题库
+acFileNewStandardExam=基础题库
+acFileNewCaseStudyExam=基于案例分析的试题
+acFileOpen=打开...
+acFileImport=导入...
+acFileClose=关闭
+acFileSave=保存
+acFileSaveAs=保存到...
+acFileAdd=新增...
+acFileChange=更改...
+acFileRemove=移除
+acFileProperteis=属性
+acFileExit=退出
+acExamStart=开始...
+acExamSelectAll=选择全部
+acExamHistory=历史
+acExamOptions=选项...
+mnuAutoSave=自动保存
+acDisableAutoSave=禁用
+acEnableAutoSave=启用
+AutoSaveIntervalForm=自动保存间隔
+MinutesGroupBox=分钟:
+acFilePageSetup=页面设置...
+acFilePrint=打印...
+acFilePrintPreview=打印预览
+acFileProperties=属性
+acFileExit=退出
+acEditCut=剪切
+acEditCopy=拷贝
+acEditPaste=粘贴
+acEditUndo=撤销
+acEditRedo=重复
+acEditDelete=删除
+acEditSelectAll=选择全部
+acEditFind=查找...
+acEditFindNext=查找下一个
+acEditReplace=替换...
+acEditInsertPicture=插入图片...
+acViewExamExplorer=试题浏览器
+acViewPropertiesWindow=属性窗口
+acViewPropertiesForPopUpMenu=属性
+acHelpContents=内容
+mnuViewToolbars=工具栏
+acViewToolbarsStandard=基础功能
+acViewToolbarsFormatting=格式
+acViewToolbarsNavigation=导航
+acViewToolbarsLock=锁定工具栏
+acViewStatusBar=状态栏
+acSpellChecking=拼写检查
+acSpellCheckingOptions=拼写和选项
+acViewSetDefaultLayout=设置默认布局
+acExamToPrevItem=上一项
+acExamToNextItem=下一项
+acExamGoTo=&Go To...
+acExamMoveUp=上移
+acExamMoveDown=下移
+acRenameExam=重命名
+acExamMoveTo=移动到...
+acExamNewQuestion=新问题...
+acExamNewExam=新试题
+acExamNewTestlet=新题组
+acExamNewQuestionSet=新问题集
+acHelpWhatsThis=这是什么？
+acHelpQuickStart=快速上手
+acHelpProgramOnTheWeb=VCE Exam Simulator on the &Web
+acHelpOrderOnline=网上订购...
+acHelpRegister=注册...
+acHelpAbout=关于
+tbFormattingFontStyleLabel= 文字样式: 
+tbFormattingFontStyle_hint=文字样式 (Ctrl+Shift+F)
+tbFormattingFontSize_hint=文字大小 (Ctrl+Shift+P)
+acFormattingBold=粗体
+acFormattingItalic=斜体
+acFormattingUnderline=下划线
+acFormattingAlignLeft=左对齐
+acFormattingAlignCenter=居中
+acFormattingAlignRight=右对齐
+acFormattingAlignJustify=右对齐
+acFormattingNumbering=编号
+acFormattingMarkedList=项目符号
+acFormattingIndentDec=左缩进
+acFormattingIndentInc=右缩进
+acFormattingSuperscript=上标
+acFormattingSubscript=下表
+ExamExplorerPanel=试题浏览器
+PropertyPanel=属性
+acPropertiesSortByCategory=Categorized
+acPropertiesSortAlpha=Alphabetic
+StatusBarProgress=进度栏
+StatusBarMain=;当前位置|;问题类型|;章节||CAP;Caps Lock|NUM;Num Lock
+mnuUpdateMode=自动检查更新
+acUpdateDisabled=禁用
+acEVDay=每天
+acEVWeek=每周
+acEVMonth=每月
+acEVRun=每次启动时
+
+acPreviewFirstPage=第一页
+acPreviewPreviousPage=上一页
+acPreviewNextPage=下一页
+acPreviewLastPage=末页
+acPreviewClose=关闭
+
+tbFormattingFontStyle=标准|等宽
+tbFormattingFontSize=小|正常|大
+tbPrintPreviewZoomPercent=500%|200%|150%|100%|75%|50%|25%|10%|页面宽度|整页
+
+# interface strings
+READ_ONLY_TITLE=只读
+
+# delete confirmation messages
+DELETE_QUESTION_TITLE=问题删除确认
+DELETE_QUESTION_PROMPT=您确定要删除此问题吗？
+
+# message box strings
+SAVE_PROMPT=保存更改到 %s?
+AUTO_SAVE_EXAM_PROMPT=You must save the exam, you do not lose data.
+EVAL_CANNOT_SAVE_BEFORE_OPEN=在演示版中,您无法保存当前的考试文件。您确定要关闭当前的试题文件并打开另一个吗？
+EVAL_CANNOT_SAVE=在演示版中,您无法保存当前的考试文件。您确定要关闭当前的试题文件吗？
+
+# error messages
+UNKNOWN_EXAM_EXPLORER_ITEM_TYPE=项目类型未知.
+
+UNSUPPORTED_IMAGE_FILE_FORMAT=图片文件格式不支持.
+
+# spell checker strings
+IGNORE_CAPTION=忽略
+NO_SUGGESTIONS_CAPTION=(无可用建议)
+ADD_TO_DICTIONARY_CAPTION=添加到词典
+
+# interface strings
+PROPERTIES_TAB_TITLE=属性
+
+QUESTION_AND_ANSWER_TAB_TITLE=问题和答案
+PREVIEW_TAB_TITLE=预览
+QUESTION_TAB_TITLE=问题
+ANSWER_TAB_TITLE=答案
+OVERVIEW_TAB_TITLE=概述
+CASE_STUDY_TAB_TITLE=案例分析
+
+PROPERTIES_TAB_DESC=在此页面上，您可以设置该试题的相关属性及说明。试题说明将在考试开始前立即显示，并可用于显示一些其他信息。
+PROPERTIES_TITLE_LABEL_TEXT=标题:
+PROPERTIES_NUMBER_LABEL_TEXT=编号:
+PROPERTIES_FILE_VERSION_LABEL_TEXT=文件版本:
+PROPERTIES_PASSING_SCORE_LABEL_TEXT=合格分数:
+PROPERTIES_TIME_LIMIT_LABEL_TEXT=时间限制（分钟）:
+PROPERTIES_TIME_DESCRIPTION_COMMENT_TEXT=在考试开始前显示说明...
+PROPERTIES_TIME_DESCRIPTION_LABEL_TEXT=描述:
+PROPERTIES_TIME_CASESTUDY_COMMENT_TEXT=对于基于案例分析的试题，请使用每个题组和问题集的时间限制属性。
+BACKGROUND_IMAGE_PROPERTY_DESC=允许您指定背景图像。背景图像是定义问题内容的必选项目。
+DRAG_TYPE_PROPERTY_DESC=定义项目拖动的逻辑。如果是多个实例，则每个拖动的项目可以多次使用。
+GROUP_INDEX_PROPERTY_DESC=定义所选源对象或目标位置所属的组编号。 考试人只能在源对象和属于同一组的目标位置之间拖动对象。
+TIME_LIMIT_PROPERTY=时间限制（分钟）
+
+ANSWER_CHOICE_TITLE_PROPERTY_DESC=定义选项列表上方的标题。
+
+TREE_STRUCTURE_TITLE_PROPERTY_DESC=定义树结构上方的标题。
+ORDERED_LIST_TITLE_PROPERTY_DESC=Defines the title above the list of ordered items.
+
+PAGES_PROPERTY_DESC=The collection of case study tabs.
+CASE_STUDY_EXHIBIT_DESC=The collection of exhibits associated with the case study.
+TRUE_CASE_STUDY_TITLE_PROPERTY_DESC=定义案例分析的标题。
+
+SECTIONS_TAB_TITLE=章节
+SECTIONS_TAB_DESC=Sections allow you to group questions according to exam topics. A question can belong to only one section. To assign it to a section, use the Section property of a question. To edit the section list, use the New, Rename and Delete buttons.
+SECTIONS_LISTVIEW_COLUMNS=名字|问题
+
+STATUS_BAR_QUESTION_NUMBER_FORMAT_STRING=%s of %d
+
+# question text editor table titles
+QUESTION_TEXT_EDIT_TABLE_CAPTION=问题
+CHOICES_TEXT_EDIT_TABLE_CAPTION=可用选择（选择所有正确的选项）
+CASE_STUDY_TEXT_EDIT_TABLE_CAPTION=案例分析
+EXPLANATION_TEXT_EDIT_TABLE_CAPTION=解释/参考
+FILL_IN_THE_BLANK_TEXT_EDIT_TABLE_CAPTION=正确答案
+
+INSERT_PICTURE_DIALOG_BOX_CAPTION=插入图片
+
+INSERT_PICTURE_DIALOG_FILTER_ALL=所有支持的格式
+INSERT_PICTURE_DIALOG_FILTER_GIF=GIF Image File
+INSERT_PICTURE_DIALOG_FILTER_JPEG=JPEG Image File
+INSERT_PICTURE_DIALOG_FILTER_PNG=PNG Image File
+OBJECT_CAPTION_MESSAGE=您必须输入对象标题。
+DELETE_OBJECT_ASK=您确定要删除此对象吗？
+MAX_DROP_BLOCK_COUNT_MESSAGE=允许最多 %d 个对象。
+CONNECTOR_CAPTION_MESSAGE=您必须键入连接器标题。
+CONNECTORS_PROPERTY=连接
+CANNOT_RENAME_CONNECTOR=您无法重命名它，因为此类型的连接器具有预定义的名称。
+DELETE_CONNECTOR_ASK=您确定要删除此连接器吗？
+YOU_MUST_ENTER_TEXT=您必须输入文字。
+ADD_NODE=添加节点
+ADD_CHILD_NODE=添加子节点
+NODE_PROPERTIES=节点属性
+DELETE_NODE_ASK=你确定要删除这个节点吗?
+ADD_ITEM=添加答案选择
+ITEM_RPOPERTIES=回答选择属性
+DELETE_ITEM_ASK=您确定要删除此答案选项吗？
+
+UNKNOWN_QUESTION_SET_TYPE=未知的问题集类型。
+TESTLET=题组
+QUESTION_SET=问题集
+CASE_STUDY=案例分析
+
+#ExamFrame
+mnuNewQuestion=新问题...
+mnuNewTestlet=新题组
+mnuNewQuestionSet=新问题集
+mnuMoveUp=上移
+mnuMoveDown=下移
+mnuMoveTo=移动到...
+mnuDelete=删除
+mnuProperties=属性
+EXAM_FRAME_LIST_VIEW_COLUMN_ITEM=项目
+EXAM_FRAME_LIST_VIEW_COLUMN_TYPE=类型
+EXAM_FRAME_LIST_VIEW_COLUMN_SECTION=章节
+
+#UpgradeLicenseForm
+UpgradeButton=更新
+UpgradeLicenseForm=更新许可证
+EnterLicenseCodeButton=输入新的注册码
+UpgradeLicenseLabel=您的许可证仅允许您使用VCE Player。 如果要使用VCE Designer，则需要升级许可证。\
+\
+升级后，您将能够:\
+ - 创建自己的试题.\
+ - 编辑现有的试题文件.\
+\
+您想升级许可证吗？
+
+#NewQuestionForm
+NewQuestionForm=新问题
+OKButton=确定
+CancelButton=取消
+QuestionTypeGroupBox=问题类型
+
+SingleSelectRadioButton=多种选择（单选）
+MultipleSelectRadioButton=多种选择（多选）
+SingleSelectWithCaseRadioButton=多选（单选）with 案例分析
+MultipleSelectWithCaseStudy=多选（多选）with 案例分析
+FillInTheBlankRadioButton=填空题
+SelectAndPlaceRadioButton=选择并放置 (拖放)
+PointAndShootRadioButton=P&oint and Shoot
+HotAreaRadioButton=热点区域
+CreateTreeRadioButton=创建树形图
+BuildListAndReorderRadioButton=列表排列
+DropAndConnectRadioButton=拖放与连接
+
+MAX_EXAM_COUNT_MESSAGE=试题最大允许为26（A-Z）。
+
+MAX_QUESTION_PER_EXAM_MESSAGE=每次考试允许最多 %d 个问题。
+MAX_QUESTION_PER_TESTLET_MESSAGE=每个题组允许最多 %d 个问题。
+MAX_QUESTION_PER_QUESTION_SET_MESSAGE=每个问题集允许最多 %d 个问题。
+
+DEFAULT_EXAM_TITLE=未命名试题
+EVAL_CANNOT_SAVE_BEFORE_NEW=在演示版中，您无法保存当前的考试文件。您确定要关闭当前的试题文件并创建一个新文件吗？
+
+SINGLE_SELECT=单选
+MULTIPLE_SELECT=多选
+
+PROPERTY_CATEGORY_QUESTION=问题
+PROPERTY_CATEGORY_CHOICE=选择
+PROPERTY_CATEGORY_ANSWER=答案
+PROPERTY_CATEGORY_SELECTED_OBJECT=选择对象
+PROPERTY_CATEGORY_OBJECT=对象
+PROPERTY_CATEGORY_TESTLET=题组
+PROPERTY_CATEGORY_QUESTION_SET=问题集
+PROPERTY_MANAGER_CATEGORY=已选项目
+
+ANSWER_TYPE_PROPERTY=答案类型
+CHOICE_COUNT_PROPERTY=可选数量
+CHECKED_SELECTED_COUNT_PROPERTY=检查选定的数量
+LAST_CHOICE_LETTER_PROPERTY=最大可选项
+SECTION_PROPERTY=章节
+EXHIBITS_PROPERTY=Exhibits
+COMPLEXITY_PROPERTY=复杂性
+CASE_STUDY_TITLE_PROPERTY=案例分析标题
+ANSWER_COUNT_PROPERTY=答案数
+CASE_SENSITIVE_PROPERTY=大小写区分
+IGNORE_MULTIPLE_SPACES_PROPERTY=空格忽略
+TRIM_USER_RESPONSE_PROPERTY=修整答题人的回答
+BACKGROUND_IMAGE_PROPERTY=背景图片
+DRAG_TYPE_PROPERTY=拖动类型
+GROUP_INDEX_PROPERTY=组索引
+CONNECTORS_TITLE_PROPERTY=Connectors Title
+OBJECTS_PROPERTY=对象
+HEIGHT_PROPERTY_PROPERTY=高
+WIDTH_PROPERTY_PROPERTY=宽
+
+# property descriptions
+ANSWER_TYPE_PROPERTY_DESC=定义答题人在回答问题时可以选择的选项数量（一个或多个）。
+CHOICE_COUNT_PROPERTY_DESC=定义可选项数量。要指定选项数，可以使用“可选数量”或“最大可选项”属性。
+CHECK_SELECTED_COUNT_PROPERTY_DESC=仅用于将“答案类型”属性设置为“多选”的题目。如果为真，则答题人可以选择的选择数量将受到正确选择的数量的限制。
+LAST_CHOICE_LETTER_PROPERTY_DESC=使用最后一个选项的字母定义选项数。例如字母D表示4种选择。要指定选项数，可以使用“可选数量”或“最大可选项”属性。
+EXHIBITS_PROPERTY_DESC=The collection of exhibits associated with the question.
+SECTION_PROPERTY_DESC=定义问题的部分。
+COMPLEXITY_PROPERTY_DESC=定义问题的复杂程度。最小复杂度级别为1，最大复杂度级别为10.此属性用于根据难度对问题进行加权。
+ALLOW_REORDER_CHOICES_PROPERTY_DESC=Defines if choice randomization is allowed. If False, the order of choices will always remain original.
+CASE_STUDY_TITLE_PROPERTY_DESC=Defines the title for the case study. This title is displayed before the text in the Case Study window.
+ORDER_IS_IMPORTANT_PROPERTY_DESC=Defines whether the order of choices should be taken into consideration when estimating the candidate''s score.
+REORDER_ONLY_PROPERTY_DESC=Defines the question subtype. If True, the question requires only reordering the given list of choices.
+
+ANSWER_COUNT_PROPERTY_DESC=Defines the number of correct answers. If the candidate's response coincides with one of the correct answers, it is considered to be correct.
+CASE_SENSITIVE_PROPERTY_DESC=Defines the method of comparing the candidate's response with the correct answer(s). If True, the comparison is case sensitive.
+IGNORE_MULTIPLE_SPACES_PROPERTY_DESC=Defines the method of comparing the candidate's response with the correct answer(s). If True, multiple spaces are equal to single ones.
+TRIM_USER_RESPONSE_PROPERTY_DESC=Defines the necessity of trimming leading and trailing spaces in the candidate's response before comparing it with the correct answer(s).
+
+REMOVE_SINGLE_CHOICE_ASK=您要删除选项 %s 吗？
+REMOVE_MULTIPLE_CHOICE_ASK=您要删除选项 %s - %s 吗？
+
+ALLOW_REORDER_CHOICES_PROPERTY=Allow Shuffle Choices
+
+PROPERTY_COLLECTION=(collection)
+PROPERTY_EMPTY=(空)
+
+MAX_EXHIBIT_MESSAGE=A maximum of %s exhibits is permitted.
+
+REMOVE_EXHIBIT_TITLE=Confirm Exhibit Remove
+REMOVE_EXHIBIT_PROMPT=Are you sure you want to remove this exhibit?
+FILL_REMOVE_ANSWERS_ASK=Do you want to remove the answers?
+
+KILOBYTE_STRING=KB
+
+# ExhibitEditorForm
+ExhibitEditorForm=显示
+TopDescLable=An exhibit provides additional information needed to answer the question that refers to it. Exhibit button appears in any item that has an exhibit.
+ExhibitListTitleLabel=显示顺序:
+PreviewButtonDesc=Preview button allows you to look at the exhibit window that will be available during the exam.
+ExhibitListView=标题|解析|类型|大小
+acSaveAs=另存为...
+acAddExhibit=新增...
+acRename=重命名
+acRemove=移除
+acExhibitPreview=预览
+
+PROPERTY_GIF_IMAGE=(GIF Image)
+PROPERTY_JPEG_IMAGE=(JPEG Image)
+
+REMOVE_IMAGE_ASK=您确定要清除背景图像吗？
+BACKGROUND_MINIMAL_SIZE_MESSAGE=背景图片的最小尺寸为100x100像素。 请选择其他图像。
+CHANGE_BACKGROUND_IMAGE=设置背景图像属性将导致重置问题和正确答案。 您确定要更改背景图像属性吗？
+
+# BackgroundImageForm
+BackgroundImageForm=背景图片
+SaveAsButton=另存为...
+LoadButton=读取...
+ClearButton=清除
+
+SINGLE_INSTANCE=单实例
+MULTIPLE_INSTANCE=多实例
+
+DRAG_TYPE_RESET_ANSWER=设置“拖动类型”属性将导致重置正确的答案。您确定要更改“拖动类型”属性吗？
+
+ORDER_IS_IMPORTANT_PROPERTY=Order Is Important
+ORDERED_LIST_TITLE_PROPERTY=Ordered List Title
+REORDER_ONLY_PROPERTY=仅重新排序
+
+REORDER_ONLY_RESET_ANSWER=设置“仅重新排序”属性将导致重置正确答案。 您确定要更改仅重新排序属性吗？
+
+MAX_BLOCK_COUNT_MESSAGE=The exam cannot contain more than %d testlets and question sets.
+
+HEIGHT_PROPERTY_DESC=以像素为单位定义对象高度。
+WIDTH_PROPERTY_DESC=以像素为单位定义对象宽度。
+CONNECTORS_PROPERTY_DESC=The collection of connectors used for creating relationships between the objects.
+OBJECTS_PROPERTY_DESC=The collection of objects between which relationships should be established.
+CONNECTORS_TITLE_PROPERTY_DESC=Defines the caption of the window that contains the list of connectors.
+TIME_LIMIT_QUESTION_SET_PROPERTY_DESC=Defines the time limit for answering question set questions.
+TIME_LIMIT_TESTLET_PROPERTY_DESC=Defines the time limit for answering the testlet questions.
+
+TITLE_PROPERTY=标题
+
+PAGES_PROPERTY=标签
+
+DELETE_PAGE_ASK=您确定要删除此标签吗？
+
+MAX_PAGE_MESSAGE=最多允许 %d 个案例分析选项卡。
+DEFAULT_PAGE_CAPTION=新标签
+MAX_PAGE_ITEM_MESSAGE=每个案例分析选项卡最多允许 %d 个项目。
+DEFAULT_PAGE_ITEM_CAPTION=新标签项
+
+DELETE_PAGE_ITEM_ASK=您确定要删除此标签项吗？
+
+# CaseStudyPagesForm
+CaseStudyPagesForm=标签
+TabsLabel=标签:
+TabItemsLabel=项目标签:
+TabsListView=标题
+TabItemsListView=标题
+acAddTab=新增
+acRenameTab=重命名
+acDeleteTab=删除
+acAddItem=新增
+acRenameItem=重命名
+acDeleteItem=删除
+
+REMOVE_CHOICE_DURING_PROPERTY_MULTI_EDIT=某些问题的选择将被删除。你想继续吗？
+
+REMOVE_ANSWER_DURING_PROPERTY_MULTI_EDIT=某些问题中的正确答案将被删除。你想继续吗？
+
+tbZoomLabel=放大: 
+
+tb1x=1x
+tb2x=2x
+tb4x=4x
+tb6x=6x
+tb8x=8x
+#SelectAndPlaceQuestionFrame
+tbAddTargetPlace=目标位置
+tbAddSourceObject=来源对象
+
+#HotAreaQuestionFrame
+tbAddHotArea=热点区域
+
+#CreateATreeQuestionFrame
+cmdAddTarget=新增
+cmdAddChildTarget=新增节点
+cmdChangeTarget=更改
+cmdDeleteTarget=移除
+cmdAddSource=新增
+cmdChangeSource=更改
+cmdDeleteSource=移除
+
+stText=文字:
+stCanAcceptNode=可接受选项:
+stImage=形状:
+
+itemRoot=根
+itemCategory=类
+itemChild=节点
+itemFolder=文件夹
+
+cbCanAcceptNode=真|假
+
+#DropAndConnectConnectorEditorForm
+DropAndConnectConnectorEditorForm=Connectors
+acAddConnector=新增
+acRename=重命名
+acDelete=删除
+ConnectorsListView=标题|类型
+ConnectorTypeStaticText=&Connector type:
+
+#DropAndConnectConnectorsForm 
+DropAndConnectConnectorsForm=Connectors1
+
+#DropAndConnectObjectEditorForm
+DropAndConnectObjectEditorForm=对象
+ObjectsListView=说明
+acAddObject=新增
+acRenameObject=重命名
+acDeleteObject=删除
+
+mnuBoxDelete=删除
+
+CANNOT_FIND_TEXT_MESSAGE=未找到 "%s".
+
+DEFAULT_CASE_STUDY_OVERVIEW_HTML=题组说明\
+\
+标题: <b>%s</b>\
+\
+以下题组为案例研究，[count]道多项选择题，[count]道创建树形图，[count]道列表重新排序 [count]道建立连接题（一个或多个）。\
+\
+您将有[count]分钟来完成该题组。\ 
+\
+有关如何回答问题的帮助，请单击问题屏幕上的<b> 说明 </b>按钮。
+
+IMPORT_WIZARD_CLOSE_PROMPT=您确定要关闭导入向导吗？
+EVAL_IMPORT_WIZARD_MESSAGE=在演示版中使用导入向导时，您无法在一个试卷文件中创建超过3个题库。
+MAX_EXAM_COUNT_IMPORT_WIZARD_MESSAGE=使用导入向导时，您无法在一个试卷文件中创建超过26个题库。
+MORE_DATA_IMPORT=在演示版中使用导入向导时，您无法创建超过:\
+\
+  ?  一份试卷中的五道题目 (基础题库);\
+  ?  一份试卷中的三个题库;\
+  ?  一份试卷中一个问题集的前3小题 (基于案例分析的试题);\
+  ?  一个问题集中的前五个问题 (基于案例分析的试题).\
+\
+这些限制将在注册后移除.
+
+MORE_DATA_CREATE=在演示版中，您无法创建超过:\
+\
+  ?  一份试卷中的三个题库;\
+  ?  一份试卷中的五道题目 (基础题库);\
+  ?  一份试卷中一个问题集的前3小题 (基于案例分析的试题);\
+  ?  一个问题集中的前五个问题 (基于案例分析的试题).\
+  ?  另外，无法查看/定义正确答案和解析。\
+\
+这些限制将在注册后移除.
+
+# ImportWizardForm
+BackButton=< 后退
+NextButton=下一步 >
+ImportButton=导入
+
+IMPORT_WIZARD_TITLE_FORMAT_STRING=导入向导 - 第 %d 步 / 共 %d 步
+
+STEP1_CAPTION=概述
+STEP1_COMMENT=导入向导允许您从文本文件中导入问题。
+
+STEP2_CAPTION=选择源文件类型
+STEP2_COMMENT=选择要导入的文件类型。
+
+STEP3_CAPTION=选择源文件
+STEP3_COMMENT=选择要导入的源文件。
+
+STEP4_CAPTION=导入设置
+STEP4_COMMENT=选择要使用的设置。
+
+STEP5VCE_CAPTION=导入项目
+STEP5VCE_COMMENT=选择要导入的项目。
+
+STEP5_CAPTION=导入预览
+STEP5_COMMENT=预览允许您查看将导入的问题。
+
+STEP6_CAPTION=导入已就绪
+STEP6_COMMENT=向导已准备好开始导入
+
+PREVIEW_CAPTION=准备预览
+PREVIEW_COMMENT=向导正在准备导入预览。
+
+IMPORT_CAPTION=导入进程
+IMPORT_COMMENT=请等待向导导入问题。
+
+FILE_NOT_EXIST_MESSAGE=所选文件不存在
+FILE_NOT_SELECTED_MESSAGE=请选择要导入的文件。
+
+#  IWStep1 frame
+Step1TextLabel=该向导将帮助您从格式化文本或RTF文件导入题目。有关如何格式化要导入的源文件的更多信息，请单击“帮助”。\
+\
+点击下一步继续
+
+#  IWStep2 frame
+Step2TitleLabel=导入题目来自:
+TextRadioButton=&Text file (*.txt)
+RTFRadioButton=&Rich Text Format file (*.rtf)
+VCERadioButton=VCE Exam Simulator file (*.vce)
+HelpCommentLabel=有关更多信息，请单击“帮助”.
+
+# IWStep3 frame
+IWFrame3TextLabel=单击“浏览”，找到要从中导入题目的文件。
+PreviewStaticText=预览:
+
+MUST_SELECT_A_FILE=您必须选择一个文件以继续。
+SELECTED_FILE_DOESNT_EXIST=所选文件不存在。
+
+# IWStep4 frame
+DelimiterTypeGroupBox=Question delimiter 
+NumberRadioButton=&Number with a dot (for example: "1.", "2.")
+PrefixedNumberRadioButton=Q-prefixed number with a &dot (for example: "Q1.", "Q2.")
+PrefixedNumberAtSeparateLineRadioButton=Q-prefixed number without a dot on a &separate line (for example: "Q1", "Q2")
+QPrefixWithDotRadioButton=&Q-prefix with a dot (for example: "Q. The text of the question.")
+IWStep4ImportDescriptionCheckBox=Parse text located above the first question as an exam file &description
+
+#IWStep5 frame
+ItemsStaticText=项目:
+
+# IWStep4VCE frame
+ImportOnlyQuestionsRadioButton=仅导入问题到单独的试题中
+ImportExamStructureRadioButton=从试题文件中导入试题(题库、题组、问题集)
+ImportSectionsCheckBox=导入章节
+IWStep4VCEImportDescriptionCheckBox=导入说明
+
+IWStep6TextLabel=导入向导已收集足够的信息来开始导入问题。如果要查看或更改任何设置，请点击“上一步”。\
+\
+要开始导入问题，请点击“导入”。
+
+#IWStep5VCE frame
+CaptionStaticText=要导入的项目:
+
+IMPORT_WIZARD_PREVIEW_DESCRIPTION=说明
+IMPORT_WIZARD_PREVIEW_QUESTION_TEMPLATE=问题 %d
+
+IMPORT_PROGRESS_BAR_TEMPLATE=扫描：问题： %d
+
+IMPORT_WIZARD_PREVIEW_ANSWER=答案
+IMPORT_WIZARD_PREVIEW_SECTION=章节
+
+IMPORT_DESC_PROCESS_COMMENT=导入：说明
+IMPORT_QST_PROCESS_COMMENT=导入：问题
+IMPORT_QST_PROCESS_COMMENT_TEMPLATE=导入：问题 %d
+
+PARSING_DESCRIPTION=解析：说明，
+PARSING_QUESTEION=解析: 问题 %d
+
+PASSWORD_NOT_MATCH=您输入的密码不匹配。
+PASSWORD_MESSAGE=您必须在继续之前键入密码。
+
+# TFilePropertiesForm
+FilePropertiesForm=属性:
+
+GeneralTabSheet=General
+StatisticsTabSheet=统计
+PasswordTabSheet=密码
+
+FileNameStaticText=文件名:
+TitleStaticText=标题:
+NumberStaticText=代码:
+ExamTypeStaticText=试题类型:
+TimeLimitStaticText=限制时间(分钟):
+PassingScoreStaticText=通过分数:
+FileVersionStaticText=文件版本:
+CreatedStaticText=创建时间:
+ModifiedStaticText=修改时间:
+StatisticsStaticText=统计:
+StatisticsListView=统计名称|值
+PasswordPageCommentStaticText=如果要防止未经授权复制，编辑和打印检查数据，可以设置在VCE Designer中打开文件的密码。
+PasswordProtectCheckBox=使用密码
+PasswordCommentStaticText=在VCE Designer中打开此文件时将请求此密码。
+PasswordStaticText=密码:
+ConfirmPasswordStaticText=确认密码:
+PasswordNoteStaticText=注意：设置密码不会限制从VCE Player访问此文件。
+
+DELETE_ITEMS_TITLE=多项删除确认
+DELETE_ITEMS_PROMPT=您确定要删除这些内容吗？
+
+DELETE_EXAM_TITLE=试题删除确认
+DELETE_EXAM_PROMPT=您确定要删除此试题吗？
+
+DELETE_QUESTION_TITLE=问题删除确认
+
+DELETE_TESTLET_TITLE=题组删除确认
+DELETE_TESTLET_PROMPT=您确定要删除该题组吗？
+
+DELETE_QUESTION_SET_TITLE=问题集删除确认
+DELETE_QUESTION_SET_PROMPT=您确定要删除此问题集吗？
+
+DELETE_SECTION_TITLE=章节删除确认
+DELETE_SECTION_PROMPT=所选章节包含 %d 个问题。 您确定要删除此章节吗？
+
+acSectionNew=新建
+acSectionRename=重命名
+acSectionDelete=删除
+acSectionMoveUp=上移
+acSectionMoveDown=下移
+
+MAX_SECTION_COUNT_MESSAGE=最多允许 %d 个部分, 在添加其他部分之前请删除部分内容。
+DEFAULT_SECTION_NAME=新章节
+MUST_TYPE_SECTION_NAME=您必须输入章节名称。
+
+CANNOT_RENAME_SECTION_TITLE=重命名章节出错
+CANNOT_RENAME_SECTION=无法重命名章节：具有您指定名称的章节已存在。请指定其他章节名称。
+
+PREVIEW_PAGE_FORMAT_STRING=第 %d 页 / 共 %d 页
+
+# TPrintForm
+PrintForm=打印
+PrinterGroupBox=打印
+PrinterNameStaticText=名字:
+PrinterPropertiesButton=属性
+StatusCaptionStaticText=状态:
+TypeCaptionStaticText=类型:
+WhereCaptionStaticText=到哪:
+CommentCaptionStaticText=注释:
+PrintToFileCheckBox=打印到文件
+ExamsStaticText=试题:
+CopiesGroupBox=
+NumberOfCopiesStaticText=份数:
+CollateCheckBox=分页
+ItemsGroupBox=导出设置
+FilePropertiesCheckBox=试题文件属性
+DescriptionCheckBox=说明
+SectionListCheckBox=部分列表
+ExhibitsCheckBox=Ex&hibits
+CaseStudyOverviewCheckBox=案例分析概述
+CaseStudyCheckBox=案例分析
+QuestionCheckBox=问题
+QuestionSectionCheckBox=问题部分
+CorrectAnswerCheckBox=答案
+ExplanationCheckBox=说明
+PageFooterStaticText=页脚:
+
+EXHIBIT_AFTER=(显示):
+EXHIBIT_BEGIN=显示:
+
+GO_TO_ITEM_NOT_FOUND=没有找到问题
+MOVE_GO_TO_PLEASE_SELECT_EXAM=请选择试题.
+MOVE_GO_TO_PLEASE_SELECT_ITEM=请选择题组/问题集.
+
+AFTER_ZERO_MESSAGE=问题编号必须是大于0的整数值。
+
+QuestionSetStaticText=题组/问题集:
+
+# TGoToForm
+GoToForm=转到
+GoToFormExamStaticText=试题:
+GoToButton=到
+QuestionStaticText=题目序号:
+
+# TMoveToForm
+MoveToForm=移动到
+MoveToFormExamStaticText=试题:
+MoveButton=移动
+
+# InsertHyperLinkForm
+TextLabel=文本:
+HyperlinkLabel=超链接:
+InsertHyperLinkForm=插入超链接...
+
+pmDelete=删除
+pmZoom1x=放大 1x
+pmZoom2x=放大 2x
+pmZoom4x=放大 4x
+pmZoom6x=放大 6x
+pmZoom8x=放大 8x
+
+tbSameSize=原始尺寸
+
+# ChangeExamListItemForm form
+ChangeExamListItemForm=更改
+ExamTitleStaticText=标题:
+FileNameStaticText=文件名:
+
+SettingsForm=选项
+GeneralTabSheet=一般
+AdminTabSheet=管理
+PasswordTabSheet=密码
+ProxyTabSheet=代理设置
+ItemOrderGroupBox=项目顺序
+ButtonsGroupBox=按钮
+RestrictionsGroupBox=限制
+OtherOptionsGroupBox=其他选项
+UseAdminPasswordCheckBox=使用管理员密码
+
+RandomQuestionsCheckBox=问题随机化
+RandomChoicesCheckBox=启用选项随机
+PreviousAndReviewCheckBox=启用上一个和查看按钮（仅适用于标准考试）
+EnableShowAnswerButtonCheckBox=启用显示应答按钮
+EnablePauseButtonCheckBox=启用“暂停”按钮
+EnableViewAnswersButtonCheckBox=在考试完成后启用问题评审
+EnableCalculatorButtonCheckBox=启用计算器按钮
+FontSizeStaticText=文字大小:
+ColorSchemeLabel=配色方案:
+FontSizeComboBox=小|正常|大|非常大
+ColorSchemeComboBox=标准|夜间模式|自定义...
+DisableShowFileNameColumnCheckBox=不在考试列表中显示“文件名”列
+DisableShowRealExamAndQuestionNumber=不显示真实考试和问题编号
+DisableDeleteHistoryCheckBox=禁用清除分数历史记录
+DisableSelectingExamMode=禁用选择考试模式
+DisableEditExamListCheckBox=禁用添加，更改和删除考试列表中的项目
+DisableTurnOffTimerCheckBox=禁用关闭检查计时器并设置自定义时间限制
+DisableViewFilePropertiesCheckBox=禁用查看文件属性
+DisablePrintScoreReportCheckBox=禁用打印分数报告
+ScanFolderCheckBox=启动时，将指定文件夹中的所有.vce文件添加到考试列表：
+ScanFolderTipStaticText=提示：如果指定共享网络文件夹，此选项将帮助您更轻松地在教室中的多台计算机上维护同步检查列表。
+ResetCandidateNameCheckBox=将答题人名字重置为默认值。
+DefaultCandidateNameCheckBox=默认答题人:
+AdminPasswordCommentStaticText=使用管理员密码来限制访问和更改此对话框中的选项。
+RequestPasswordOnBeginExamCheckBox=启动考试必须使用密码
+RequestPasswordOnViewHistoryCheckBox=要求使用密码以查看分数历史记录
+
+PASSWORDS_DONT_MATCH=您输入的密码不匹配，请在两个文本框中键入新密码。
+YOU_MUST_TYPE_PASSWORD=您必须在继续之前键入密码。
+PLEASE_ENTER_FOLDER_NAME=请键入文件夹名字。
+DEFAULT_CANDIDATE_NAME=答题人
+CANDIDATE_NAME_PROMT=请在此处键入姓名.
+
+ERROR_ON_LOAD_EXAM_LIST=将文件加载到考试列表时发生错误。
+CHECK_LOAD_FILES_OPTION=Make sure the "On startup load files from the specified folder to the Exam List:" option in the Options dialog box is specified correctly.
+
+# system errors
+ERROR_2=系统找不到指定的文件。
+ERROR_3=系统找不到指定的路径。
+ERROR_5=访问被拒绝。
+ERROR_53=找不到网络路径。
+
+ALL_HISTORY_RECORD_DELETE_ASK=您确定要从之前的考试中永久删除所有分数历史记录信息吗？
+ALL_SESSIONS_RECORD_DELETE_ASK=您确定要永久删除之前参加考试的所有会话记录吗？
+
+PRINT_SCORE_REPORT_TITLE=成绩报告
+SAVE_AS_SCORE_REPORT_FILENAME_PREFIX=成绩报告
+
+MESSAGE_EXAM_FILE_NOT_FOUND=文件 %s 未找到。你想自己找到这个文件吗？
+
+MESSAGE_EXAM_CRC_MISMATCH=自上次导入后文件 "%s" 已更改。
+MESSAGE_SOURCE_FILE_OPEN_ERROR=无法打开文件 %s.
+
+ERROR_ON_LOADING_HISTORY_DATA=加载历史得分数据时发生错误。
+
+#HistoryForm
+HistoryForm=历史成绩
+acScoreReport=成绩报告
+acPrint=打印...
+acSaveAs=另存为...
+acAnswers=回答
+acViewAnswers=查看答案
+acExport=导出
+acDeleteHistoryItem=删除
+acDeleteSession=删除
+acClearHistory=清理历史数据
+acResumeExam=恢复
+acClearSessions=清理已保存会话
+tsGeneral=历史
+tsSavedSessions=保存的会话
+DELETE_SESSION_PROMT=您确定要删除此会话吗？
+DELETE_HISTORY_ITEM_PROMT=您确定要删除此历史记录项吗？
+
+HistoryListView=日期|时间|答题人|试题|分数|通过分数|成绩
+ExamSessionsListView=日期|时间|答题人|试题|通过
+
+#ScoreReportViewerForm
+ScoreReportViewerForm=浏览成绩报告
+
+# ExamForm
+RETAKE_CAPTION=重做
+SAVE_SESSION_MESSAGE=您想保存当前的考试状态吗？\
+\
+您可以稍后继续。
+
+NO_ONE_SECTION=在试题中没有找到章节内容。
+NOT_ALLOWED_FOR_CASE_STUDY=不适用于基于案例分析的考试
+PLEASE_SELECT_EXAM=选择考试
+EXAM_MODE_TITLE=考试形式
+EMPTY_EXAM_MODE_SET=所选部分不包含任何题目。
+PLEASE_SPECIFY_CANDIDATE_NAME=请指定考试人姓名
+EXAM_MODE_STANDARD=标准考试
+EXAM_MODE_CASE_STUDY=基于案例分析的考试
+
+# StartExamForm
+StartExamForm=考试模式
+CandidateNameStaticText=答题人:
+ExamModeGroupBox=考试形式
+SelectedExamRadioButton=选择试题:
+SelectedSectionsRadioButton=仅从选定章节进行考试:
+rbTakeIncorrectOnly=回答
+rbOrMoreTimes=次或更多次错误回答的问题
+QuestionsCountRadioBox=提取
+RandomQuestionsStaticText=个问题进行考试
+TimerGroupBox=定时
+TrainingModeCheckBox=练习模式
+TimerOnCheckBox=启用
+StartExamTimeLimitStaticText=时间限制（分钟）:
+
+FILE_OPEN_ERROR_CAUSE_MANAGER=. It may be opened in VCE Designer.
+FILE_MAY_BE_OPENED_IN_DESIGNER=It may be opened in VCE Designer.
+
+EXAM_FILE_CONTAIN_NO_ONE_QUESTION=考试文件不包含任何问题。
+
+MORE_DATA_TAKE=此文件包含的项目数量超出了演示版本中的数量。在演示版中，您不能使用超过:\
+\
+  ?  一份试卷中的三个题库;\
+  ?  一份试卷中的五道题目 (基础题库);\
+  ?  一份试卷中一个问题集的前3小题 (基于案例分析的试题);\
+  ?  一个问题集中的前五个问题 (基于案例分析的试题).\
+  ?  另外，无法查看正确的答案和解释.\
+\
+这些限制将在注册后移除 %s.
+
+CUSTOM_EXAM=自定义考试
+
+REMOVE_EXAM_TITLE=考试移除确认
+REMOVE_EXAM_FROM_EXAM_LIST=您确定要从列表中删除此考试文件吗？
+EXAM_PAUSED_MESSAGE=考试暂停，点击"确定"继续考试
+YouHaveLabel=你有
+SavedSessionsLabel=一个保存的考试状态

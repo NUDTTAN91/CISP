@@ -1,0 +1,137 @@
+v3.4.2
+Fixed: Problems with vce-files importing in Designer.
+Fixed: Error during changing the number of responses.
+
+v3.4.1
+Fixed: Problems with vce-files opening in Designer.
+
+v3.4
+Fixed: Small miscellaneous bugs.
+
+v3.3
+Added: Exam autosave in Designer.
+Added: Custom colorcheme for Manager.
+Added: Running the Manager with command line parameters.
+Fixed: In unregistered version of Designer Case Study exams cause "Unknown question type" error.
+Fixed: Small miscellaneous bugs.
+
+v3.2.1
+Fixed: Invalid user's scoring after the exam.
+Fixed: Small miscellaneous bugs.
+
+v3.2
+Added: Autosave while editing exam.
+Added: French localization.
+Fixed: Problems with vce-files importing in Designer.
+Fixed: Acceleration of opening files with lots of questions in Designer.
+Fixed: Startup error on Windows XP.
+Fixed: Training mode errors.
+Fixed: Lot of minor bugs.
+
+v3.1.1
+Fixed: "Code not found" bug.
+Fixed: Locking license when offline.
+
+v3.1
+Added: Automatic restart after changing language.
+Added: Ability to use PNG images in Designer.
+Fixed: Errors during importing RTF files with images.
+Fixed: Error with saving and restoring sessions.
+Fixed: Wrong Designer's behaviour during selecting and copying text.
+Fixed: Various bugs with printing.
+Fixed: Errors and typos in localizations.
+Fixed: Miscellaneous small bugs.
+
+v3.0.1
+Various small bug fixes.
+
+v3.0
+Added: Training mode.
+Added: Ability to use hyperlinks.
+Fixed: Errors during importing.
+Fixed: Randomizing answers errors.
+Fixed: Typos and errors in localizations.
+Fixed: Problems with saving exams containing non-latin symbols.
+Fixed: Database damage or data loss after the upgrade to new version.
+
+v2.8.1
+Fixed: German localization.
+
+v2.8
+Added: Ability to sort questions by name, type and section.
+Added: Ability for users to add their own translation of the interface language.
+Fixed: Excessive CPU usage by the spell checker.
+Fixed: Bug when selecting multiple questions in Designer.
+
+v2.7
+Added: Drag'n'Drop for tree elements in question type "Build a tree".
+Fixed: Typos in localization texts.
+Fixed: Starting Case Study-based exams.
+Fixed: Doesn't work "Enable Review button" option.
+Improved: Uninstaller deletes all unnecessary files (only for new installs).
+
+v2.6
+Added: Automatic activation using a license_key.txt file in the same folder as setup.exe.
+Added: German dictionary for spell checking.
+Added: Language selected during installation remains the default.
+Added: Notification of a successful upgrade.
+Fixed: Bug when transitioning between questions with "Show Answer" enabled.
+Fixed: Setting the "Enable Spell Checking" option was not being saved.
+Fixed: Problems with scaling fonts.
+Improved: German localization.
+
+v2.5
+Added: German language interface.
+Added: Option to disable printing questions and results.
+Added: Ability to import/export user data.
+Added: Check for updates on startup.
+Fixed: Bug when zooming during a test.
+
+v2.4.2
+Added: Automatic restart after unregistering.
+Fixed: Error with unregistering if user had updated from an old version.
+Fixed: Hotkey for File->Properties has changed to "e".
+Fixed: Hotkey for "Candidate name" in Start Exam dialog has changed to "a".
+Fixed: Incorrect alignment of images in "explanation" windows.
+Various minor bug fixes.
+
+v2.4.1
+Various small bug fixes.
+
+v2.4
+Added: Ability to show the exam and question number during the test.
+Added: Ability to scale font size during the test.
+Fixed: Problems with import from RTF-files.
+
+v2.3
+Some bugs fixed, and improved interface.
+
+v2.2
+Added: Hotkey for "Mark" (Alt-M).
+Added: Support for large fonts, as set by the operating system.
+Added: Option to automatically check for program updates.
+Fixed: Some hotkey conflicts.
+Fixed: Interface language now defaults to system default.
+
+v2.1.1
+Fixed: Bug in localization engine.
+
+v2.1
+Added: Spell-check for Designer.
+Added: Localization support. (English and Russian)
+Added: Color scheme support. (including a Night scheme for low-light environments) (for Manager)
+Added: Export test results to txt, csv, and xml files.
+Added: Delete a single exam result in history. (instead of having to delete all the results for a particular exam) (for Manager)
+Added: Test settings are now saved between testing sessions. (for Manager)
+Added: Ability to select the range of test questions can now be disabled. (for Manager)
+Added: Ability to retake marked and incomplete questions. (for Manager)
+Fixed: Test name was not being saved after being renamed.
+
+v2.0.1
+Fixed: Dates would not convert correctly in some locales.
+
+v2.0
+Added: Retake incorrectly answered questions.
+Added: Save your session during the test.
+Fixed: The VCE Manager portion of a VCE Suite installation can now be activated with registration codes for the standalone version of VCE Manager.
+Added: Hotkey to show the correct answer. (Ctrl-S)
